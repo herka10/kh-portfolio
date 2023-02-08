@@ -1,5 +1,7 @@
-const AboutPage = props => {
-    return 'AboutPage'
+const About = props => {
+    return (
+      <h1>About</h1>
+    )
   }
   
-  export default AboutPage
+  export default About

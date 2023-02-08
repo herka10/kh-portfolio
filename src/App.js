@@ -1,19 +1,27 @@
 //import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import HomePage from './pages/home'
-import ContactPage from './pages/contact'
+import Navbar from './components/navbar'
+import About from './pages/about'
+import Contact from './pages/contact'
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume'
+import Footer from './components/footer'
+import Page from './components/page'
 
 function App() {
-  const [view, setView] = useState('home')
+  const [view, setView] = useState('about')
 
   
   const renderView = () => {
-    if (view === 'home') {
-      return <HomePage />
+    if (view === 'about') {
+      return <About />
+    } else if (view === 'portfolio') {
+      return <Portfolio />
+    } else if (view === 'resume') {
+      return <Resume />
     } else if (view === 'contact') {
-      return <ContactPage />
+      return <Contact />
     } else {
       return 'No matching view found'
     }
@@ -26,6 +34,7 @@ function App() {
         setView={setView}
       />
       { renderView() }
+      <Footer />
     </>
   );
 }
