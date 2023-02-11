@@ -1,6 +1,6 @@
 const Navbar = ({ setView, view }) => {
     return (
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg text-white bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">Kao Nou</a> 
           <ul className="navbar-nav">

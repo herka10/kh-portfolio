@@ -1,5 +1,3 @@
-//import logo from './logo.svg';
-import './App.css';
 import { useState } from 'react'
 import Navbar from './components/navbar'
 import About from './pages/about'
@@ -7,7 +5,8 @@ import Contact from './pages/contact'
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume'
 import Footer from './components/footer'
-import Page from './components/page'
+//import Page from './components/page'
+//import Header from './components/header'
 
 function App() {
   const [view, setView] = useState('about')
@@ -34,7 +33,6 @@ function App() {
         setView={setView}
       />
       { renderView() }
-      <Footer />
     </>
   );
 }
