@@ -2,7 +2,7 @@ const Navbar = ({ setView, view }) => {
     return (
       <nav className="navbar navbar-expand-lg text-white bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#">Kao Nou</a> 
+        <a className="navbar-brand">Kao Nou</a> 
           <ul className="navbar-nav">
             <li className="nav-item">
               <a 
