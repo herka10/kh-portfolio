@@ -1,8 +1,28 @@
-function Footer() {
+
+
+const Footer = props => {
  return (
-      <footer className="flex-row px-1">
-        
-      </footer>
+      <div className="container text-center">
+        <footer>
+          <ul>
+            <li>
+              <a href='https://www.linkedin.com/in/kao-nou-h-b817b017a/'>
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/herka10/">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/users/20996865/kaonou">
+                <i class="bi bi-stack-overflow"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     )
   }
   

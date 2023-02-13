@@ -33,6 +33,7 @@ function App() {
         setView={setView}
       />
       { renderView() }
+      <Footer />
     </>
   );
 }
