@@ -32,7 +32,9 @@ function App() {
         view={view}
         setView={setView}
       />
+      <div className="d-flex flex-column min-vh-100">
       { renderView() }
+      </div>
       <Footer />
     </>
   );
