@@ -7,7 +7,7 @@ Being a web developer means being part of a community. My portfolio shares my pr
 My portfolio uses React skills, which I hope will help set me apart from other developers. 
 
 ## Visit My Portfolio
-
+https://herka10.github.io/kh-portfolio/
 
 ## Screenshot
 The following is a screenshot of my portfolio:
