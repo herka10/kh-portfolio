@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kh-portfolio/static/css/main.804820d0.css",
+    "main.js": "/kh-portfolio/static/js/main.6ea1a75d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/kh-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mypicture.jpg": "/kh-portfolio/static/media/mypicture.763b67b8949ca2d03c91.jpg",
+    "static/media/blog.png": "/kh-portfolio/static/media/blog.9e8dac925dec7ffb4d7b.png",
+    "static/media/resumeScreenshot.png": "/kh-portfolio/static/media/resumeScreenshot.4f08919c8657d03e6ddf.png",
+    "static/media/dataBeats.png": "/kh-portfolio/static/media/dataBeats.dbc14283cad15a9ca695.png",
+    "static/media/noteTaker.png": "/kh-portfolio/static/media/noteTaker.31be07c3d4b71be9d86b.png",
+    "static/media/KaonouResume.pdf": "/kh-portfolio/static/media/KaonouResume.686c68de910508625a35.pdf",
+    "static/media/workDayScheduler.png": "/kh-portfolio/static/media/workDayScheduler.5af1f3df3b710386448d.png",
+    "static/media/assignmint.png": "/kh-portfolio/static/media/assignmint.a1c8ba0808fc65fbd5c7.png",
+    "static/media/pwGenerator.png": "/kh-portfolio/static/media/pwGenerator.aa25cbf89939def02f6b.png",
+    "index.html": "/kh-portfolio/index.html",
+    "main.804820d0.css.map": "/kh-portfolio/static/css/main.804820d0.css.map",
+    "main.6ea1a75d.js.map": "/kh-portfolio/static/js/main.6ea1a75d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/kh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.804820d0.css",
+    "static/js/main.6ea1a75d.js"
+  ]
+}
