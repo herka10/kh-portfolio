@@ -52,3 +52,8 @@ ul {
 i {
   margin: 30px
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
