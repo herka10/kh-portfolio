@@ -78,7 +78,7 @@ const Portfolio = props => {
 
         <div className="col mb-4">
           <div className="card h-100">
-            <a href='/' target="_blank" rel="noreferrer noopener">
+            <a href='https://assignmint.herokuapp.com/' target="_blank" rel="noreferrer noopener">
               <img src={assignmint} className="card-img-top" alt="A screenshot of a tech blog site" />
             </a>
               <div className="card-body">
