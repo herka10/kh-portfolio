@@ -1,9 +1,9 @@
 import pwGenerator from '../assets/pwGenerator.png'
 import blog from '../assets/blog.png'
-import noteTaker from '../assets/noteTaker.png'
-import workDayScheduler from '../assets/workDayScheduler.png'
+//import noteTaker from '../assets/noteTaker.png'
+//import workDayScheduler from '../assets/workDayScheduler.png'
 import dataBeats from '../assets/dataBeats.png'
-import assignmint from '../assets/assignmint.png'
+//import assignmint from '../assets/assignmint.png'
 
 
 const Portfolio = props => {
@@ -24,7 +24,7 @@ const Portfolio = props => {
           </div>
         </div>
 
-        <div className="col mb-4">
+        {/* <div className="col mb-4">
           <div className="card h-100">
             <a href='https://herka10.github.io/Daily-Work-Scheduler/' target="_blank" rel="noreferrer noopener">
               <img src={workDayScheduler} className="card-img-top" alt="A screenshot of a work day scheduler application" />
@@ -35,9 +35,9 @@ const Portfolio = props => {
               </div>
               <div class="card-footer bg-transparent border-dark m-2"><a href='https://github.com/herka10/Daily-Work-Scheduler' target="_blank" rel="noreferrer noopener">GitHub Repository</a></div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="col mb-4">
+        {/* <div className="col mb-4">
           <div className="card h-100">
             <a href='https://expressnote-taking.herokuapp.com/' target="_blank" rel="noreferrer noopener">
               <img src={noteTaker} className="card-img-top" alt="A screenshot of a note taker application" />
@@ -48,7 +48,7 @@ const Portfolio = props => {
               </div>
               <div class="card-footer bg-transparent border-dark m-2"><a href='https://github.com/herka10/express-note-taker' target="_blank" rel="noreferrer noopener">GitHub Repository</a></div>
           </div>
-        </div>
+        </div> */}
 
         <div className="col mb-4">
           <div className="card h-100">
@@ -76,7 +76,7 @@ const Portfolio = props => {
           </div>
         </div>
 
-        <div className="col mb-4">
+        {/* <div className="col mb-4">
           <div className="card h-100">
             <a href='https://assignmint.herokuapp.com/' target="_blank" rel="noreferrer noopener">
               <img src={assignmint} className="card-img-top" alt="A screenshot of a tech blog site" />
@@ -87,7 +87,7 @@ const Portfolio = props => {
                 <div class="card-footer bg-transparent border-dark m-2"><a href='https://github.com/herka10/assignmint' target="_blank" rel="noreferrer noopener">GitHub Repository</a></div>
               </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

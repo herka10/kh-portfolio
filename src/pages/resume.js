@@ -1,4 +1,4 @@
-import resume from '../assets/KaonouResume.pdf'
+import resume from '../assets/KaoNouResume.pdf'
 import resumeScreenshot from '../assets/resumeScreenshot.png'
 import 'animate.css'
 
