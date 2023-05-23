@@ -4,7 +4,7 @@ import blog from '../assets/blog.png'
 //import workDayScheduler from '../assets/workDayScheduler.png'
 import dataBeats from '../assets/dataBeats.png'
 //import assignmint from '../assets/assignmint.png'
-
+import cfbPicks from '../assets/cfb_picks.png'
 
 const Portfolio = props => {
   return (
@@ -88,6 +88,19 @@ const Portfolio = props => {
               </div>
           </div>
         </div> */}
+
+        <div className="col mb-4">
+          <div className="card h-100">
+            <a href='https://safe-sands-42348.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+              <img src={cfbPicks} className="card-img-top" alt="A screenshot of a tech blog site" />
+            </a>
+              <div className="card-body">
+                <h3 className="card-title">College Football Pickem</h3>
+                <p className="card-text">A full stack college fantasy football app.</p>
+                <div class="card-footer bg-transparent border-dark m-2"><a href='https://github.com/Hunter-Mayer/college-football-pickem' target="_blank" rel="noreferrer noopener">GitHub Repository</a></div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   )
